@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
 author: "Cesar Guillen"
-date: "Summer 202s"
+date: "Summer 2022"
 output: html_document
 ---
 
@@ -34,6 +34,9 @@ basicCN + geom_boxplot()
 ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
+
+Those who sit in the back rows seem to consume more alcohol than those who sit in the middle and front rows of the stadium. 
+
 
 ## Numerical Summarys 
 
