@@ -41,11 +41,19 @@ Those who sit in the back rows seem to consume more alcohol than those who sit i
 ## Numerical Summarys 
 
 ```{r}
-favstats(alcohol~Seat,data=davisdata) 
+favstats(alcohol~Seat,data=davisdata)
 ```
+The max in the amount of alcohol that is being consumed in the back rows is double of that who consume alcohol in the front and middle row. The mean is also three times as much in the back rows, being 9.625000 amount of aclohol consumed, whereas the front row only has 3.283133. This proves that the back rows are most likely to consume more alcohol than the front and middle rows. 
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+Since the p value from one way anova is such a small number we are going to follow up 
+
+When comparing the amount of alcohol that has been consumed in the stadium, the ones in the back row have consumed a higher amount of alcohol than those in the front and the middle rows. We would be more confidence by saying that those who sit in the middle and front rows are more likely to not drink at all, and that the ones who sit in the back rows are most likely to consume many bottles or cans of alcohol. 
 ## Conclusions
 
 
