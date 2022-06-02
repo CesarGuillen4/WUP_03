@@ -40,6 +40,10 @@ Those who sit in the back rows seem to consume more alcohol than those who sit i
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata) 
+```
+
 ## Inferential Tests
 
 ## Conclusions
