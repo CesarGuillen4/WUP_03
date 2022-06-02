@@ -35,7 +35,7 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
-Those who sit in the back rows seem to consume more alcohol than those who sit in the middle and front rows of the stadium. 
+Those who sit in the back rows seem to consume more alcohol than those who sit in the middle and front rows of the stadium. Which could mean that the more father back your seats are in a stadium the more alcohol you are likely to consume.  
 
 
 ## Numerical Summarys 
